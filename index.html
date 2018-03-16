@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+
+</head>
+
+<body>
+
+    <!--Option 1
+        You'll create a trivia form with multiple choice or true/false options (your choice).
+
+The player will have a limited amount of time to finish the quiz. 
+
+
+The game ends when the time runs out. The page will reveal the number of questions that players answer correctly and incorrectly.  
+
+Don't let the player pick more than one answer per question.
+Don't forget to include a countdown timer.
+    -->
+    <h3 id=timer></h3>
+    <form name="quiz">
+   
+        <h3 class="row1">1. Who would Eleven call a "mouth-breather"?</h3>
+        <div class="row2">
+        <div class="container">
+            <img class="smilePretty" src="https://fsmedia.imgix.net/e0/b8/dd/55/2504/4748/a9d9/4a8c52e827d7/dustin-played-by-gaten-matarazzo-in-stranger-things.png"
+                alt="Dustin Smiling">
+            <br>
+            <label class="buttons">
+                <input type="radio" name="q1" value="Dustin">Dustin</label>
+        </div>
+        <div class="container">
+            <img class="smilePretty" src="https://vignette.wikia.nocookie.net/strangerthings8338/images/0/08/Troy-0.png/revision/latest?cb=20171006085218"
+                alt="Troy, the bully">
+            <br>
+            <label class="buttons">
+                <input type="radio" name="q1" value="Troy">Troy</label>
+        </div>
+        <div class="container">
+            <img class="smilePretty2" src="assets/images/hop.jpg"
+                alt="Hopper">
+            <br>
+            <label class="buttons">
+                <input type="radio" name="q1" value="Chief Hopper">Chief Hopper</label>
+        </div>
+        <div class="container">
+                <img class="smilePretty2" src="https://assets.rbl.ms/13618880/980x.jpg"
+                    alt="Mr. Clarke">
+                <br>
+                <label class="buttons">
+                    <input type="radio" name="q1" value="Mr. Clarke">Mr. Clarke</label>
+        </div>   
+        <br>
+        <br>
+    </div> 
+
+        <h3 class="row3">2. What did Dustin name his new friend, in Season 2?</h3>
+        <div class="row4">
+        <label class="buttons">
+            <input type="radio" name="q2" id="numberOne" value="Yurtle, the Turtle">Yurtle, the Turtle</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q2" id="numberTwo" value="D'Artagnan, 'Dart' for short">D'Artagnan, 'Dart' for short</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q2" id="numberThree" value="Don Quixote, Don for short">Don Quixote, Don for short</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q2" id="numberFour" value="Dustin Jr.">Dustin Jr.</label> 
+        <br>
+        <br>
+    </div>
+
+       <h3 class="row5">3. What nickname does the street have where Will goes missing?</h3>
+       <div class="row6">
+        <label class="buttons">
+            <input type="radio" name="q3" id="numberOne" value="Mirkwood">Mirkwood</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q3" id="numberTwo" value="Camelot">Camelot</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q3" id="numberThree" value="Narnia">Narnia</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q3" id="numberFour" value="Sherwood">Sherwood</label>
+        <br>
+        <br>
+    </div>
+
+        <h3 class="row7">4. What is Eleven's "sister's" power?</h3>
+        <div class="row8">
+        <label class="buttons">
+            <input type="radio" name="q4" id="numberOne" value="She can turn herself and other people invisible">She can turn herself and other people invisible</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q4" id="numberTwo" value="She can make things explode with her mind">She can make things explode with her mind</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q4" id="numberThree" value="She can read minds">She can read minds</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q4" id="numberFour" value="She can make people see what she wants them to see">She can make people see what she wants them to see</label>
+        <br>
+        <br>
+    </div>
+
+        <h3 class="row9">5. Which Ghost Buster do both Lucas and Mike dress up as for Halloween?</h3>
+        <div class="row10">
+        <label class="buttons">
+            <input type="radio" name="q5" id="numberOne" value="Spengler">Spengler</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q5" id="numberTwo" value="Winston">Winston</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q5" id="numberThree" value="Venkman">Venkman</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q5" id="numberFour" value="Stantz">Stantz</label>
+        <br>
+        <br>
+    </div>
+    
+        <h3 class="row11">6. What does Joyce use to communicate with Will while he is in the Upside Down?</h3>
+        <div class="row12">
+        <label class="buttons">
+            <input type="radio" name="q6" id="numberOne" value="A Chalkboard">A Chalkboard</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q6" id="numberTwo" value="Christmas Lights">Christmas Lights</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q6" id="numberThree" value="The T.V.">The T.V.</label>
+        <br>
+        <label class="buttons">
+            <input type="radio" name="q6" id="numberFour" value="Morse Code">Morse Code</label>
+        <br>
+        <br>
+        </div>
+   
+    </form>
+    <input class="start"id="button" type="button" value="Submit" onclick="check()">
+        
+   
+        <!-- 
+        You'll create a trivia game that shows only one question until the player answers it or their time runs out.
+If the player selects the correct answer, show a screen congratulating them for choosing the right option. After a few seconds, display the next question -- do this without user input.
+
+The scenario is similar for wrong answers and time-outs.
+
+
+If the player runs out of time, tell the player that time's up and display the correct answer. Wait a few seconds, then show the next question.
+If the player chooses the wrong answer, tell the player they selected the wrong option and then display the correct answer. Wait a few seconds, then show the next question.
+
+
+On the final screen, show the number of correct answers, incorrect answers, and an option to restart the game (without reloading the page).
+    -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

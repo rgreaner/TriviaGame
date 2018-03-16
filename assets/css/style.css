@@ -1,0 +1,26 @@
+
+body {
+    font-family: ITC Benguiat;
+    color: red;
+    background-image: url(https://brorlandi.github.io/StrangerThingsIntroCreator/c9566bf08c5703c8276c3675110c71b6.jpg)
+}
+
+
+#timer {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+.smilePretty {
+    width: 200px;
+    height: 200px;
+}
+
+.smilePretty2 {
+    width: 300px;
+    height: 200px;
+}
+
+/* #quiz {
+    display:none;
+} */
